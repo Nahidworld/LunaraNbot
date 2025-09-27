@@ -1,13 +1,13 @@
 {
   "name": "lunaranbot",
   "version": "1.0.0",
-  "description": "",
+  "description": "Mine, quest, and rise with Lunara. A crypto-tap game bot on Telegram.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["telegram", "bot", "tap", "game", "crypto"],
   "author": "Md. Fahim Bin Imam Nahid",
   "license": "ISC",
   "type": "commonjs",
