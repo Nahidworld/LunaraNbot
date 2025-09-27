@@ -1,5 +1,15 @@
 require('dotenv').config();
 const { Telegraf } = require('telegraf');
+const { Client } = require('pg');
+
+
+const db = new Client({
+  connectionString: process.env.DATABASE_URL,
+  ssl: { rejectUnauthorized: false } // ensures secure SSL connection
+});
+
+db.connect();
+
 
 const bot = new Telegraf(process.env.BOT_TOKEN);
 
